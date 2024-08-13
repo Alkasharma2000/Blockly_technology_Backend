@@ -19,7 +19,7 @@ const PORT = 3000;
 app.use(cors());
 
 app.get("/",(req,res)=>{
- res.json({"msg":"Welcome to Alka World"})
+ res.json({"msg":"Welcome to Alka World,where beauty and grace shine"})
 })
 
 // // Initial location and direction

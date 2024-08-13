@@ -22,13 +22,13 @@ app.get("/",(req,res)=>{
  res.json({"msg":"Welcome to Alka World,where beauty and grace shine"})
 })
 
-// // Initial location and direction
-// let latitude = 17.385044;
-// let longitude = 78.486671;
 
-// Initial location and direction
-let latitude = 21.245990;
-let longitude = 81.389395;
+
+// let latitude = 21.245990;
+// let longitude = 81.389395;
+
+let latitude = 13.042060;
+let longitude = 77.622262;
 
 const latitudeIncrement = 0.00001; 
 const longitudeIncrement = 0.00001; 
